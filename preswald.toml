@@ -1,0 +1,20 @@
+[project]
+title = "Air Quality App with Preswald"
+version = "0.1.0"
+port = 8501
+slug = "{project_slug}"
+entrypoint = "hello.py"
+
+[branding]
+name = "Air Quality App with Preswald"
+logo = "images/air_quality_logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#F89613"
+
+[data.Air_Quality]
+type = "csv"
+path = "data/Air_Quality.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 
